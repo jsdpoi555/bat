@@ -1,0 +1,2 @@
+@echo off
+FOR /F %%I IN ('DIR /B /S "E:\金蝶-TJS\凭证转换-拆分"') DO (COPY %%I  "E:\金蝶-TJS\凭证转换-不拆分")
