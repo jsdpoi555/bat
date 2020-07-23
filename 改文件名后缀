@@ -1,0 +1,2 @@
+@echo off
+for /r %%a in (*.xls) do ren "%%a" "%%~na.xlsx"
